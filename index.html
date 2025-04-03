@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .product-gallery {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Trendy Clothing Store</h1>
+        <p>Your Style, Your Choice</p>
+    </header>
+
+    <!-- Main Container for Product Gallery -->
+    <div class="container">
+        <h2>Explore Our Collection</h2>
+        <div class="product-gallery">
+            <!-- Product 1 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/t-shirt.jpg" alt="T-shirt">
+                <h3>Cool T-shirt</h3>
+                <p>Comfortable cotton t-shirt, perfect for every day.</p>
+                <p class="price">$25.00</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/jeans.jpg" alt="Jeans">
+                <h3>Stylish Jeans</h3>
+                <p>Denim jeans with a perfect fit, available in all sizes.</p>
+                <p class="price">$45.00</p>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/jacket.jpg" alt="Jacket">
+                <h3>Leather Jacket</h3>
+                <p>Premium leather jacket for that cool, bold look.</p>
+                <p class="price">$120.00</p>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/dress.jpg" alt="Dress">
+                <h3>Evening Dress</h3>
+                <p>Elegant dress for special occasions, available in multiple colors.</p>
+                <p class="price">$85.00</p>
+            </div>
+            <!-- Product 5 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/sweater.jpg" alt="Sweater">
+                <h3>Cozy Sweater</h3>
+                <p>Warm and stylish sweater for colder days.</p>
+                <p class="price">$50.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Trendy Clothing Store | All Rights Reserved</p>
+    </div>
+
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .product-gallery {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Trendy Clothing Store</h1>
+        <p>Your Style, Your Choice</p>
+    </header>
+
+    <!-- Main Container for Product Gallery -->
+    <div class="container">
+        <h2>Explore Our Collection</h2>
+        <div class="product-gallery">
+            <!-- Product 1 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/t-shirt.jpg" alt="T-shirt">
+                <h3>Cool T-shirt</h3>
+                <p>Comfortable cotton t-shirt, perfect for every day.</p>
+                <p class="price">$25.00</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/jeans.jpg" alt="Jeans">
+                <h3>Stylish Jeans</h3>
+                <p>Denim jeans with a perfect fit, available in all sizes.</p>
+                <p class="price">$45.00</p>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/jacket.jpg" alt="Jacket">
+                <h3>Leather Jacket</h3>
+                <p>Premium leather jacket for that cool, bold look.</p>
+                <p class="price">$120.00</p>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/dress.jpg" alt="Dress">
+                <h3>Evening Dress</h3>
+                <p>Elegant dress for special occasions, available in multiple colors.</p>
+                <p class="price">$85.00</p>
+            </div>
+            <!-- Product 5 -->
+            <div class="product">
+                <!-- Add your image URL here -->
+                <img src="path_to_your_image/sweater.jpg" alt="Sweater">
+                <h3>Cozy Sweater</h3>
+                <p>Warm and stylish sweater for colder days.</p>
+                <p class="price">$50.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Trendy Clothing Store | All Rights Reserved</p>
+    </div>
+
+</body>
+
+</html>
